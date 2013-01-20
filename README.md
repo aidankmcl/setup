@@ -54,4 +54,4 @@ Launching... done, v4
        http://<some random thing>.herokuapp.com deployed to Heroku
 ```
 
-If you navigate to `http://<some random thing>.herokuapp.com` you should see "hello world".
+If you navigate to `http://<some random thing>.herokuapp.com` you should see "Hello world!".
