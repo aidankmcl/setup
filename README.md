@@ -12,7 +12,7 @@ There are two options, either setting up Ubuntu as a dual boot/primary OS, or ru
 * Install [homebrew](http://mxcl.github.com/homebrew/)
 
 ##Setting up everything else
-* Get Chrome. In OSX just get the binary and install it. To do this in Ubuntu, copy the following commands into your terminal, in order:
+* Get Chrome. In OSX [just get the binary](https://www.google.com/intl/en/chrome/browser/) and install it. To do this in Ubuntu, copy the following commands into your terminal, in order:
 
 ```
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -;
@@ -20,7 +20,7 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 sudo apt-get update;
 sudo apt-get install google-chrome-stable;
 ```
-* Get node. In OSX get the [nodejs binary](http://nodejs.org/) and install it. In Ubuntu:
+* Get node. In OSX [get the nodejs binary](http://nodejs.org/) and install it. In Ubuntu:
 
 ```
 sudo add-apt-repository ppa:chris-lea/node.js;
@@ -54,4 +54,4 @@ Launching... done, v4
        http://<some random thing>.herokuapp.com deployed to Heroku
 ```
 
-If you navigate to http://\<some random thing\>.herokuapp.com you should see "hello world".
+If you navigate to `http://<some random thing>.herokuapp.com` you should see "hello world".
