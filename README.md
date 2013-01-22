@@ -28,6 +28,7 @@ sudo apt-get update;
 sudo apt-get install nodejs;
 sudo apt-get install npm;
 ```
+* Get git. In OSX ```brew install git```. In ubuntu ```sudo apt-get install git```
 * Install express by opening up a terminal and typing in ```sudo npm install express -g```
 * Get a [Github account](https://github.com/)
 * Setup the [public/private github ssh key](https://help.github.com/articles/generating-ssh-keys#platform-linux)
